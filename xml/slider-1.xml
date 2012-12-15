@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <slider>
-  <name>My Slider</name>
+  <name>Front Slider</name>
   <include_skin>1</include_skin>
   <settings>
     <width>900</width>
     <height>250</height>
-    <align_type>rightTop</align_type>
+    <align_type>leftTop</align_type>
     <shadow>1</shadow>
     <skin>curved-square</skin>
     <slide_start>0</slide_start>
-    <link_target>_self</link_target>
+    <link_target>_blank</link_target>
     <shuffle>0</shuffle>
     <slides_preloaded>0</slides_preloaded>
     <skip_broken>1</skip_broken>
     <slideshow>1</slideshow>
     <slideshow_delay>5000</slideshow_delay>
     <slideshow_direction>next</slideshow_direction>
-    <pause_slideshow_on_hover>1</pause_slideshow_on_hover>
+    <pause_slideshow_on_hover>0</pause_slideshow_on_hover>
     <slideshow_controls>1</slideshow_controls>
     <fade_slideshow_controls>1</fade_slideshow_controls>
     <slideshow_controls_hide_duration>500</slideshow_controls_hide_duration>
     <slideshow_controls_show_duration>500</slideshow_controls_show_duration>
     <lightbox>0</lightbox>
-    <lightbox_navigation>0</lightbox_navigation>
+    <lightbox_navigation>1</lightbox_navigation>
     <lightbox_theme>pp_default</lightbox_theme>
     <lightbox_default_width>500</lightbox_default_width>
     <lightbox_default_height>300</lightbox_default_height>
@@ -42,13 +42,13 @@
     <fade_navigation_arrows>1</fade_navigation_arrows>
     <navigation_arrows_hide_duration>500</navigation_arrows_hide_duration>
     <navigation_buttons>1</navigation_buttons>
-    <navigation_buttons_numbers>1</navigation_buttons_numbers>
-    <navigation_buttons_center>0</navigation_buttons_center>
+    <navigation_buttons_numbers>0</navigation_buttons_numbers>
+    <navigation_buttons_center>1</navigation_buttons_center>
     <navigation_buttons_container_center>1</navigation_buttons_container_center>
     <fade_navigation_buttons>0</fade_navigation_buttons>
     <navigation_buttons_show_duration>500</navigation_buttons_show_duration>
     <navigation_buttons_hide_duration>500</navigation_buttons_hide_duration>
-    <effect_type>scale</effect_type>
+    <effect_type>random</effect_type>
     <override_transition>0</override_transition>
     <html_during_transition>1</html_during_transition>
     <fade_previous_slide>0</fade_previous_slide>
@@ -67,7 +67,7 @@
     <simple_slide_direction>autoHorizontal</simple_slide_direction>
     <simple_slide_easing>swing</simple_slide_easing>
     <simple_slide_duration>700</simple_slide_duration>
-    <thumbnails_type>none</thumbnails_type>
+    <thumbnails_type>tooltip</thumbnails_type>
     <thumbnail_width>80</thumbnail_width>
     <thumbnail_height>50</thumbnail_height>
     <thumbnail_slide_amount>10</thumbnail_slide_amount>
@@ -137,20 +137,20 @@
     <lightbox>closed</lightbox>
     <timer_animation>closed</timer_animation>
     <slide_navigation_controls>closed</slide_navigation_controls>
-    <transition_effects>opened</transition_effects>
+    <transition_effects>closed</transition_effects>
     <thumbnails>closed</thumbnails>
     <captions>closed</captions>
     <slides_order>closed</slides_order>
   </panels_state>
   <slides>
     <slide>
-      <id>177</id>
+      <id>5</id>
       <slider_id>1</slider_id>
       <name>Slide1</name>
       <content>
-        <image><![CDATA[http://spolischook.dyndns.org/aries/wp-content/uploads/2012/12/a8cpgb11.jpg]]></image>
+        <image><![CDATA[http://spolischook.dyndns.org/aries_dev/wp-content/uploads/2012/12/x7jbh31.jpg]]></image>
         <alt><![CDATA[]]></alt>
-        <link><![CDATA[category/pechatnaya-produktsiya/]]></link>
+        <link><![CDATA[]]></link>
         <thumbnail_image><![CDATA[]]></thumbnail_image>
         <thumbnail_alt><![CDATA[]]></thumbnail_alt>
         <thumbnail_caption><![CDATA[]]></thumbnail_caption>
@@ -247,11 +247,11 @@
       <panel_state>opened</panel_state>
     </slide>
     <slide>
-      <id>178</id>
+      <id>6</id>
       <slider_id>1</slider_id>
       <name>Slide2</name>
       <content>
-        <image><![CDATA[http://spolischook.dyndns.org/aries/wp-content/uploads/2012/12/x5jx9y1.jpg]]></image>
+        <image><![CDATA[http://spolischook.dyndns.org/aries_dev/wp-content/uploads/2012/12/a8cpgb1.jpg]]></image>
         <alt><![CDATA[]]></alt>
         <link><![CDATA[]]></link>
         <thumbnail_image><![CDATA[]]></thumbnail_image>
@@ -350,11 +350,11 @@
       <panel_state>opened</panel_state>
     </slide>
     <slide>
-      <id>179</id>
+      <id>7</id>
       <slider_id>1</slider_id>
       <name>Slide3</name>
       <content>
-        <image><![CDATA[http://spolischook.dyndns.org/aries/wp-content/uploads/2012/12/x7jbh31.jpg]]></image>
+        <image><![CDATA[http://spolischook.dyndns.org/aries_dev/wp-content/uploads/2012/12/x5jx9y1.jpg]]></image>
         <alt><![CDATA[]]></alt>
         <link><![CDATA[]]></link>
         <thumbnail_image><![CDATA[]]></thumbnail_image>
@@ -453,11 +453,11 @@
       <panel_state>opened</panel_state>
     </slide>
     <slide>
-      <id>180</id>
+      <id>8</id>
       <slider_id>1</slider_id>
       <name>Slide4</name>
       <content>
-        <image><![CDATA[http://spolischook.dyndns.org/aries/wp-content/uploads/2012/12/4qfi4c16.jpg]]></image>
+        <image><![CDATA[http://spolischook.dyndns.org/aries_dev/wp-content/uploads/2012/12/4qfi4c1.jpg]]></image>
         <alt><![CDATA[]]></alt>
         <link><![CDATA[]]></link>
         <thumbnail_image><![CDATA[]]></thumbnail_image>
